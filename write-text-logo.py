@@ -39,4 +39,4 @@ def create_title(text,name):
     #add logo to images
     im.paste(logo, offset)
     #save images
-    im.save(name)
+    im.save('output/'+name)
