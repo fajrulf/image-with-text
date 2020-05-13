@@ -19,7 +19,7 @@ def create_title(text,name):
 
     #spacing between line
     space = 30
-    #wiffth and heigh of text
+    #width and heigh of text
     w, h = draw.textsize(wrap[0])
     #define initial height to center the text + logo vertically
     current_h = ((MAX_H - (n*h + (n-1)*space) ) / 2) - 1.5*h
