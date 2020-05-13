@@ -31,4 +31,4 @@ def create_title(text,name):
         current_h += h + space
 
     #save the images
-    im.save(name)
+    im.save('output/'+ name)
