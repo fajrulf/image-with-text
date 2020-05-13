@@ -1,4 +1,4 @@
-from title import create_title
+from write-text import create_title
 
 #read the txt file
 myfile = open('text.txt', 'r')
